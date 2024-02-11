@@ -22,7 +22,10 @@
     gap: 10px;
     padding: 5px 10px 5px 10px !important;
     background-color: none;
-    font-size: 0.9em !important;
+    font-size: 1em !important;
+    background-color: none;
+    border-bottom: 3px solid #F6F8FA;
+    font-weight: 600 !important;
 }
 
 .nav-item a:hover {
@@ -31,6 +34,7 @@
 
 .nav-item .active {
     color: #0969DA !important;
+    border-bottom: 3px solid #0969DA;
 }
 
 .dropdown-menu .dropdown-item {
@@ -47,8 +51,8 @@
 
 .dropdown-menu a:hover {
     transition: none !important;
-    background-color: #D9D9D9;
-    color: black !important;
+    background-color: #0969DA;
+    color: #ffffff !important;
 }
 
 .collapse {
@@ -63,7 +67,7 @@
 
 .heading p {
     text-decoration: none;
-    font-size: 0.9em !important;
+    font-size: 1em !important;
     margin-top: 20px;
 }
 
